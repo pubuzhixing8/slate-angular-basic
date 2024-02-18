@@ -7,17 +7,16 @@ import { AppComponent } from './app.component';
 import { DemoTextMarkComponent } from './text-mark.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    DemoTextMarkComponent
-  ],
-  imports: [
-    BrowserModule,
-    FormsModule,
-    SlateModule
-  ],
-  entryComponents: [DemoTextMarkComponent],
-  providers: [],
-  bootstrap: [AppComponent]
+    declarations: [
+        AppComponent,
+        DemoTextMarkComponent
+    ],
+    imports: [
+        BrowserModule,
+        FormsModule,
+        SlateModule
+    ],
+    providers: [],
+    bootstrap: [AppComponent]
 })
 export class AppModule { }
